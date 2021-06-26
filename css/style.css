@@ -6,7 +6,8 @@ body{
     height: 65vh;
     width: 55%;
     margin-left: 21.3%;
-    margin-top: 3%;
+    margin-top: 5%; 
+    border: 1px black solid; 
 }
 
 .nav-bar{
@@ -15,6 +16,7 @@ body{
     font-style: italic;
     border: solid 2px black;
     margin-right: 39.7%;
+    margin-top: 2%;
 }
 
 h2{
