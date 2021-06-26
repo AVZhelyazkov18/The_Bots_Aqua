@@ -15,7 +15,7 @@ body{
     margin-left: 35%;
     font-style: italic;
     border: solid 2px black;
-    margin-right: 35.9%;
+    margin-right: 35.5%;
     margin-top: 2%;
     border-radius: 18px;
 }
@@ -28,4 +28,11 @@ h2{
 a{
     text-decoration: none;
     color: coral;
+}
+
+a:hover{
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    background: darkblue;
+    letter-spacing: 1px;
 }
