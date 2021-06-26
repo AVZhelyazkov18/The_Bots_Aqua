@@ -1,5 +1,5 @@
 body{
-    background: aquamarine;
+    background-image:url(https://wallpaper.dog/large/20396404.jpg);
 }
 
 .map {
@@ -12,14 +12,20 @@ body{
 
 .nav-bar{
     display:flex;
-    margin-left: 36%;
+    margin-left: 35%;
     font-style: italic;
     border: solid 2px black;
-    margin-right: 39.7%;
+    margin-right: 35.9%;
     margin-top: 2%;
+    border-radius: 18px;
 }
 
 h2{
     margin-right: 20px;
     margin-left: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: coral;
 }
