@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+    font-size: 30px;
+}
+td,th,table{
+    border: 1px solid black;
+    padding: 8px;
+}
+table{
+    margin-left: 35%;
+}
+a{
+    text-decoration: none;
+    color:black;
+    transition: 2s;
+    font-size: 60px;
+}
+a:hover{
+    color: white;
+    background-color: blue;
+    transition: 2s;
+    border-radius: 20px;
+}
