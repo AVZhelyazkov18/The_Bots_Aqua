@@ -3,10 +3,10 @@ body{
 }
 
 .map {
-    height: 65vh;
+    height: 80vh;
     width: 55%;
     margin-left: 21.3%;
-    margin-top: 5%; 
+    margin-top: 2%;
     border: 1px black solid; 
 }
 
