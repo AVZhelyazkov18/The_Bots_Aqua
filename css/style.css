@@ -2,3 +2,12 @@
     height: 65vh;
     width: 55%;
 }
+
+.nav-bar{
+    display:flex;
+    margin-left: 35%;
+}
+
+h2{
+    margin-right: 20px;
+}
