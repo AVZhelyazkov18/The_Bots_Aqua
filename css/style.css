@@ -12,11 +12,13 @@ body{
 
 .nav-bar{
     display:flex;
-    margin-left: 35%;
+    margin-left: 39%;
     font-style: italic;
     border: solid 2px black;
-    margin-right: 35.5%;
+    margin-right: 41%;
     margin-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
     border-radius: 18px;
 }
 
