@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    transition: 2s;
+}
+a:hover{
+    border: blueviolet 1px solid;
+    border-radius: 18px;
+    background-color: blueviolet;
+    color:white;
+    transition: 2s;
+}
