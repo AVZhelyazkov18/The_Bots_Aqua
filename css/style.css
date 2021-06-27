@@ -38,3 +38,9 @@ a:hover{
     background: darkblue;
     letter-spacing: 1px;
 }
+
+#charts{
+    background:white;
+    display:flex;
+    justify-content: center;
+}
