@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href = "../css/style.css" type = 'text/css' rel = "stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Пълноводие', 'Маловодие'],
+          ['2017',  1000,      400],
+          ['2018',  1170,      380],
+          ['2019',  660,       456],
+          ['2020',  1030,      540]
+        ]);
+
+        var options = {
+          title: 'р. Дунав',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var data1 = google.visualization.arrayToDataTable([
+          ['Year', 'Пълноводие', 'Маловодие'],
+          ['2017',  1200,      500],
+          ['2018',  1120,      450],
+          ['2019',  730,       360],
+          ['2020',  1050,      520]
+        ]);
+
+        var options1 = {
+          title: 'р. Марица',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var data2 = google.visualization.arrayToDataTable([
+          ['Year', 'Пълноводие', 'Маловодие'],
+          ['2017',  1650,      300],
+          ['2018',  1070,      530],
+          ['2019',  1280,       550],
+          ['2020',  1400,      640]
+        ]);
+
+        var options2 = {
+          title: 'р. Струма',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var data3 = google.visualization.arrayToDataTable([
+          ['Year', 'Пълноводие', 'Маловодие'],
+          ['2017',  1200,      250],
+          ['2018',  1121,      361],
+          ['2019',  1330,       470],
+          ['2020',  1630,      580]
+        ]);
+
+        var options3 = {
+          title: 'р. Тунджа',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var data4 = google.visualization.arrayToDataTable([
+          ['Year', 'Пълноводие', 'Маловодие'],
+          ['2017',  1200,      250],
+          ['2018',  1121,      361],
+          ['2019',  1330,       470],
+          ['2020',  1630,      580]
+        ]);
+
+        var options4 = {
+          title: 'р. Искар',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var data5 = google.visualization.arrayToDataTable([
+          ['Year', 'Пълноводие', 'Маловодие'],
+          ['2017',  1200,      250],
+          ['2018',  1121,      361],
+          ['2019',  1330,       470],
+          ['2020',  1630,      580]
+        ]);
+
+        var options5 = {
+          title: 'р. Осъм',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var data6 = google.visualization.arrayToDataTable([
+          ['Year', 'Пълноводие', 'Маловодие'],
+          ['2017',  1200,      250],
+          ['2018',  1121,      361],
+          ['2019',  1330,       470],
+          ['2020',  1630,      580]
+        ]);
+
+        var options6 = {
+          title: 'р. Янтра',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var data7 = google.visualization.arrayToDataTable([
+          ['Year', 'Пълноводие', 'Маловодие'],
+          ['2017',  1200,      250],
+          ['2018',  1121,      361],
+          ['2019',  1330,       470],
+          ['2020',  1630,      580]
+        ]);
+
+        var options7 = {
+          title: 'р. Адра',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var data8 = google.visualization.arrayToDataTable([
+          ['Year', 'Пълноводие', 'Маловодие'],
+          ['2017',  1200,      250],
+          ['2018',  1121,      361],
+          ['2019',  1330,       470],
+          ['2020',  1630,      580]
+        ]);
+
+        var options8 = {
+          title: 'р. Места',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var data9 = google.visualization.arrayToDataTable([
+          ['Year', 'Пълноводие', 'Маловодие'],
+          ['2017',  1200,      250],
+          ['2018',  1121,      361],
+          ['2019',  1330,       470],
+          ['2020',  1630,      580]
+        ]);
+
+        var options9 = {
+          title: 'р. Камчия',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        var chart1 = new google.visualization.LineChart(document.getElementById('curve_chart1'));
+        var chart2 = new google.visualization.LineChart(document.getElementById('curve_chart2'));
+        var chart3 = new google.visualization.LineChart(document.getElementById('curve_chart3'));
+        var chart4 = new google.visualization.LineChart(document.getElementById('curve_chart4'));
+        var chart5 = new google.visualization.LineChart(document.getElementById('curve_chart5'));
+        var chart6 = new google.visualization.LineChart(document.getElementById('curve_chart6'));
+        var chart7 = new google.visualization.LineChart(document.getElementById('curve_chart7'));
+        var chart8 = new google.visualization.LineChart(document.getElementById('curve_chart8'));
+        var chart9 = new google.visualization.LineChart(document.getElementById('curve_chart9'));
+
+        chart.draw(data, options);
+        chart1.draw(data1, options1);
+        chart2.draw(data2, options2);
+        chart3.draw(data3, options3);
+        chart4.draw(data4, options4);
+        chart5.draw(data5, options5);
+        chart6.draw(data5, options6);
+        chart7.draw(data5, options7);
+        chart8.draw(data5, options8);
+        chart9.draw(data5, options9);
+      }
+    </script>
+  </head>
+  <body id = "charts">
+    <div>
+      <div id="curve_chart" style="width: 900px; height: 500px"></div>
+      <div id="curve_chart1" style="width: 900px; height: 500px"></div>
+      <div id="curve_chart2" style="width: 900px; height: 500px"></div>
+    </div>
+      <div>
+        <div id="curve_chart3" style="width: 900px; height: 500px"></div>
+        <div id="curve_chart4" style="width: 900px; height: 500px"></div>
+        <div id="curve_chart5" style="width: 900px; height: 500px"></div>
+      </div>
+      <div>
+        <div id="curve_chart6" style="width: 900px; height: 500px"></div>
+        <div id="curve_chart7" style="width: 900px; height: 500px"></div>
+        <div id="curve_chart8" style="width: 900px; height: 500px"></div>
+      </div>
+      <div>
+        <div id="curve_chart9" style="width: 900px; height: 500px"></div>
+      </div>
+  </body>
+</html>
