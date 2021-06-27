@@ -4,7 +4,6 @@ var map = new ol.Map({
     new ol.layer.Tile({
       source: new ol.source.OSM()
     })
-<<<<<<< HEAD
   ],
   view: new ol.View({
     center: ol.proj.fromLonLat([25.5, 42.73]),
@@ -44,7 +43,7 @@ const RiversGeoJSON = new ol.layer.VectorImage({
 map.addLayer(RiversGeoJSON);
 
 // Vector Feature popup Logic
-map.on('click', function(e) {
+/*map.on('click', function(e) {
   map.forEachFeatureAtPixel(e.pixel, function(feature, layer) {
     let.clickedCoordinate = e.coordinate;
     let.clickedFeatureName = feature.get('river-name');
@@ -52,9 +51,4 @@ map.on('click', function(e) {
     overlayLayer.setPosition(clickedCoordinate);
     overlayFeatureName.innerHTML = clickedFeatureName;
   })
-})
-=======
-  });
-
-  
->>>>>>> 1f1e637e95e7bf80b4decc58b62b4357abd5cb6d
+})*/
